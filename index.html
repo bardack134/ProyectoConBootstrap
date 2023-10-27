@@ -7,61 +7,112 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css">
+    <!-- Enlace a Google Fonts para tipos de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playpen+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
     <title>Bootstrap 5</title>
 </head>
 
 <body>
     <div class="row fondo align-items-center">
         <h1 class="text-dark text-center">BACKEND DEVELOPER</h1>
+    </div>
 
-        <div class="container row">
+    <!-- comienzo de mi barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top rounded-3 m-2 ">
 
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
 
-                <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.svg" width="30px"></a>
 
-                    <a class="navbar-brand" href="#"><img src="images/logo.svg" width="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
+    </nav>
+    <!-- termina mi barra de navegacion -->
+
+    <!-- Contenido -->
+    <div class="container mt-4 px-3 ">
+        <div class="row">
+            <!-- contendor de la foto -->
+            <div class="col-sm-12 col-md-4">
+                <div style="text-align: center;">
+                    <img src="/images/Doraemon.jpg" class="img-fluid">
+                </div>
+                <div class="row text-center py-2">
+                    <h1 class="tipoLetra">Hi, i am Ricardo</h1>
+                </div>
+            </div>
+
+            <!-- contendor de la info -->
+            <div class="col-sm-12 col-md-8 ">
+                <h4 style="text-align: center" class="text-dark tipoLetra">skills</h4>
+                <div class="container m-3 text-center d-flex flex-wrap justify-content-center">
+                    <span style="background-color: rgb(167, 229, 244);" class="border border-2 rounded-pill m-2 p-2">
+                        PostgreSQL
+                    </span>
+                    <span style="background-color: rgb(225, 241, 182);" class="border border-2 rounded-pill m-2 p-2">
+                        mySQL
+                    </span>
+                    <span style="background-color: rgb(184, 243, 175);" class="border border-2 rounded-pill m-2 p-2">
+                        Python
+                    </span>
+                    <span style="background-color: rgb(239, 179, 236);" class="border border-2 rounded-pill m-2 p-2">
+                        Django,
+                    </span>
+                    <span style="background-color: rgb(252, 219, 170);" class="border border-2 rounded-pill m-2 p-2">
+                        docker
+                    </span>
+                    <span style="background-color: rgb(202, 244, 167);" class="border border-2 rounded-pill m-2 p-2">
+                        Bootstrap,
+                    </span>
+                </div>
+
+                <p>Current location: </p>
+                <p>Japan, hokkaido, sapporo</p>
+                <p>Email</p>
+                <p>: ricardoantoniogomezvillalobos@gmail.com</p>
+                <h4>social networks</h4>
+                <div>
+                    <a href="#"><span>Facebook</span></a>
+                    <a href="#"><span>Instagram</span></a>
+                    <a href="#"><span>Linkedin</span></a>
+                    <a href="#"><span>Whatsapp</span></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- termina contenido -->
+
+    <!-- Comienza footer -->
+    <div class="container p-4 bg-light text-center">
+        Copyright 2023 created by Ricardo Gomez
     </div>
 
 
@@ -70,6 +121,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

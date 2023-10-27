@@ -174,4 +174,6 @@ poetry.toml
 pyrightconfig.json
 
 bootstrap v5.txt
+
+Curso-bootstrap.txt
 # End of https://www.toptal.com/developers/gitignore/api/python

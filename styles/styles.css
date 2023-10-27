@@ -4,3 +4,6 @@
     background-size: cover;
     background-position: center;
 }
+.tipoLetra {
+    font-family: 'Kaushan Script', 'Playpen Sans', cursive;
+}
