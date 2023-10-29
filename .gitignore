@@ -71,7 +71,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
+.tono
 # Sphinx documentation
 docs/_build/
 
